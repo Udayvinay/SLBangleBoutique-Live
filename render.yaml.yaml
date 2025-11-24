@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: sl-bangle-boutique
+    env: docker
+    plan: free
+    branch: main
+    region: oregon
+    buildCommand: ""
+    startCommand: ""
